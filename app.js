@@ -113,3 +113,26 @@ function getRandomNumber(min, max) {
     return Math.round(Math.random() * (max - min) + min)
 }
 
+//Hack the Game, Not worked, in developing process
+// function winTheGame () {
+//     function kill() {
+//         const circle = document.querySelector('.circle' || '.circle1' || '.circle2' || '.circle3')
+//         if (circle) {
+//             circle.click()
+//         }
+//     }
+//     setInterval(kill, 40)
+// }
+
+// function winTheGame () {
+//     function kill() {
+//         for (let i = 0; i < 10000; i++) {
+//             const circle = document.querySelector('.circle' || '.circle1' || '.circle2' || '.circle3')
+//             if (circle) {
+//                 circle.click()
+//             }
+//         }
+//
+//     }
+//     setInterval(kill, 40)
+// }
